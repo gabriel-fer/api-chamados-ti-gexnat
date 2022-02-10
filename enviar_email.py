@@ -29,8 +29,8 @@ def enviar_email(chamado):
     
     msg = email.message.Message()
     msg['Subject'] = "Assunto"
-    msg['From'] = 'tigexnat@gmail.com'
-    msg['to'] = '23paulogabriel@gmail.com'
+    msg['From'] = ''
+    msg['to'] = ''
     senha_email = senha
     msg.add_header('Content-Type','text/html')
     msg.set_payload(corpo)
